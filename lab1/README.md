@@ -4,4 +4,6 @@
 - v: объем двигателя, см3
 - hp: количество л/с ( > 200 - 1, < 200 - 0)
 
+
+Результат выполнения pipeline.sh:
 ![image](https://github.com/mas480/mlops_practice/assets/122989623/2011cc44-28f0-4947-92c0-e0b2240d206d)
