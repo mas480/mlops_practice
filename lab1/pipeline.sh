@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/bash
 
 pip install numpy
 pip install pandas
