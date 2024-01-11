@@ -1,0 +1,2 @@
+docker build -t mlops_homework_3 -f Dockerfile_homework3.tt .
+docker run -d --log-opt mode=non-blocking --log-opt max-buffer-size=1k -p 8056:8056 --name mlops_homework_3 mlops_homework_3
