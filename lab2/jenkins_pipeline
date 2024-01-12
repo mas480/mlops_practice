@@ -1,10 +1,10 @@
-pipeline {
-    agent any
-    stages {
-     stage('Hello') {
-                steps {
-                    echo 'Hello world'
-                }
-            }
-     }
-}
+#!/bin/bash
+echo "----Create Dataset (start)----"
+python3 /home/am/project/mlops_practice/lab2/dataset_form.py
+echo "----Create Dataset (stop)----"
+echo "----Train and save model (start)----"
+python3 /home/am/project/mlops_practice/lab2/model.py
+echo "----Train and save model (stop)----"
+echo "----Test model (start)----"
+python3 /home/am/project/mlops_practice/lab2/prediction.py
+echo "----Test model (stop)----"
